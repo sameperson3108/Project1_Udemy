@@ -1,13 +1,13 @@
-package controllers;
+package com.solara.controllers;
 
-import dao.PersonDAO;
+import com.solara.dao.PersonDAO;
 import jakarta.validation.Valid;
-import models.Person;
+import com.solara.models.Person;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import util.PersonValidator;
+import com.solara.util.PersonValidator;
 
 @Controller
 @RequestMapping("/people")

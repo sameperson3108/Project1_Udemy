@@ -1,6 +1,6 @@
-package dao;
+package com.solara.dao;
 
-import models.Person;
+import com.solara.models.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;

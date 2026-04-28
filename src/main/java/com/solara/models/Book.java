@@ -1,4 +1,4 @@
-package models;
+package com.solara.models;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;

@@ -1,4 +1,4 @@
-package controllers;
+package com.solara.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

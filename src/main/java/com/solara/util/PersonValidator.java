@@ -1,7 +1,7 @@
-package util;
+package com.solara.util;
 
-import dao.PersonDAO;
-import models.Person;
+import com.solara.dao.PersonDAO;
+import com.solara.models.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
