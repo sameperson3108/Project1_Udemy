@@ -17,11 +17,6 @@
   <div style="color:red" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"> Name error</div>
   <br/>
 
-  <label for="surname">Enter surname: </label>
-  <input type="text" th:field="*{surname}" id="surname"/>
-  <div style="color:red" th:if="${#fields.hasErrors('surname')}" th:errors="*{surname}"> Surname error</div>
-  <br/>
-
   <label for="patonymic">Enter patonymic: </label>
   <input type="text" th:field="*{patonymic}" id="patonymic"/>
   <div style="color:red" th:if="${#fields.hasErrors('patonymic')}" th:errors="*{patonymic}"> Patonymic error</div>
